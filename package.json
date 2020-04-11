@@ -1,0 +1,17 @@
+{
+  "name": "space-odyssey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node -e 'require(\"./start.js\").printMenu();'"
+  },
+  "author": "Samson Oluokun <sammxin@gmail.com> (https://linkedin.com/in/horppe)",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.1.1",
+    "readline-sync": "^1.4.10",
+    "uuid": "^7.0.3"
+  }
+}
